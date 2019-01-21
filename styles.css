@@ -20,12 +20,12 @@ html {
 .title {
     font-size: 4rem;
     font-family: 'Nunito';
-    margin-bottom: 6rem;
+    margin-bottom: 1.5rem;
 }
 
 .search-container {
     display: grid;
-    grid-template-rows: repeat(auto-fit, 50%);
+    grid-template-rows: repeat(auto-fit, 45%);
     justify-content: center;
     grid-row-gap: 1.5rem;
 }
@@ -77,6 +77,7 @@ html {
     font-family: 'Nunito';
     border: none;
     outline: none;
+    margin-bottom: 2rem;
     transition: all .3s ease-in-out;
 }
 
